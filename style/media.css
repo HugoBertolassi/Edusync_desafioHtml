@@ -6,7 +6,7 @@ header nav ul, #produtos{
 
 /************celular***********/
 
-@media(max-width:400px){
+@media(max-width:430px){
     body{
         width: 100%;
         margin: 0px;
@@ -48,18 +48,47 @@ header nav ul, #produtos{
         display: flex;;
         
     }
-  
+    /* PAGINA Index*/
     .home_main{
         margin: auto;
         padding: 20px;
     }
 
     .main_foot{
-        max-width: 100%;
+        width: 100%;
+        margin:0;
+        padding: 0;
     }
-    
+    /*PAGINA CONTATO*/
+    .contato_main{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        color:var(--cor-terciaria);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    .dados_contato{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
 
+    .mobile{
+        display: none;
+    }
+    .dados_contato p{
+        font-size: 1em;
+        
+    }
+   
+   
 }
+
+
 
 
 /**********tablet*************/
@@ -74,19 +103,24 @@ header nav ul, #produtos{
         margin: auto;
    
     }
+    .dados_contato p{
+        font-size: 1em;
+        
+    }
+    /*PAGINA CONTATO*/
+    .contato_main{
+        width: 100%;
+    }
+    .form_contato input,
+    .form_contato label,
+    .form_contato textarea{
+    width:263px;
+    }
+    .form_contato button{
+        padding: 0px;
+        margin-left: -140px;
+    }
+
 }
 
 /**********padrao*************/
-@media(max-width:1200px){
-  
-
- 
-    header{
-        padding:0px 0px;
-        margin: auto;
-   
-    }
-    header nav{
-        padding:0px 50px;
-    }
-}

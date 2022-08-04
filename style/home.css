@@ -54,10 +54,15 @@
     font-size: 14px;
 }
 
+footer{
+    width: 100%;
+    background-color: var(--cor-primaria);
+
+}
 .main_foot{
     width: 100%;
     display: inline-block;
-    background-color: var(--cor-primaria);
+ 
     color: var(--white);
     text-align: center;
     

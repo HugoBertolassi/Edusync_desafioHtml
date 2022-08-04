@@ -22,3 +22,7 @@ body{
     width: 100%;
     font-family: var(--fonte-padrao);
 }
+p{
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+}

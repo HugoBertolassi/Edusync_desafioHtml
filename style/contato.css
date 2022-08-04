@@ -4,7 +4,9 @@
     color:var(--cor-terciaria);
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    align-items: center;
+    padding: 0px 50px;
+    
 }
 
 .form_contato{
@@ -13,28 +15,41 @@
     border: 1px solid var(--cor-primaria);
     display: flex;
     flex-direction:column;
+    
    
 }
 
 .form_contato h2{
     color:var(--cor-primaria);
     text-align: center;
-    margin:50px 0px 0px 0px;
+    margin:50px 10px 0px 0px;
     font-size: 36px;
 }
 .form_contato form{
     display: flex;
     flex-direction:column;
-    margin: 0px auto;
     color: var(--cor-terciaria);
     font-size: 24px;
+    justify-content: center;
+    align-items:left;
+    position: relative;
+}
+.form_contato form div{
+    display:flex;
+    flex-direction:column;
+    color: var(--cor-terciaria);
+    font-size: 24px;
+    align-items: center;
+    justify-content: left;
+   
+    position: relative;
 }
 .form_contato input,
 .form_contato label,
 .form_contato textarea{
     width:400px;
 }
-.form_contato input{
+.form_contato input{     
     height:42px ;
     border: 1px solid var(--cor-primaria);
     border-radius: 4px;
@@ -52,6 +67,7 @@
 
 
 .form_contato button{
+    
     background: var(--cor-primaria);
     border: 2px solid var(--cor-primaria);
     border-radius: 4px;
@@ -60,11 +76,14 @@
     height: 42px;
     font-size: 1.5em;
     margin-top: 35px;
+    align-self: left;
+    margin-left:-270px ;
 
 }
 
 .dados_contato{
     width: 400px;
+    margin-left: 10px;
     height: 700px;
     background-color: var(--cor-primaria);
     color: var(--white);
@@ -75,6 +94,7 @@
     text-align: center;
     position: relative;
     top:50%;
-    font-size: 1.5em;
+    font-size: 24px;
+    
 }
 
