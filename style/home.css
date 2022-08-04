@@ -1,8 +1,9 @@
+
 .home_main{
     max-width: 1200px;
-    padding: 50px;
-    
     margin:auto;
+    padding:50px 50px;
+    
 }
 .oculos{
     max-width: 1200px;
@@ -16,8 +17,7 @@
 }
 .home_main p{
     margin-top:20px ;
-    color: var(--cor-secundaria);
-    
+    color: var(--cor-secundaria);    
 }
 
 .cards_modelo{

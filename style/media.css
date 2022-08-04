@@ -9,6 +9,7 @@ header nav ul, #produtos{
 @media(max-width:400px){
     body{
         width: 100%;
+        margin: 0px;
         margin:auto;
         padding: 0px;
        
@@ -53,6 +54,9 @@ header nav ul, #produtos{
         padding: 20px;
     }
 
+    .main_foot{
+        max-width: 100%;
+    }
     
 
 }
@@ -60,10 +64,29 @@ header nav ul, #produtos{
 
 /**********tablet*************/
 @media(max-width:768px){
+  
     .oculos{
         display: none;
     }
+ 
     header nav{
-        margin-right: 90px;
+        margin:0px;
+        margin: auto;
+   
+    }
+}
+
+/**********padrao*************/
+@media(max-width:1200px){
+  
+
+ 
+    header{
+        padding:0px 0px;
+        margin: auto;
+   
+    }
+    header nav{
+        padding:0px 50px;
     }
 }
