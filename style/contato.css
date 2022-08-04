@@ -1,0 +1,80 @@
+.contato_main{
+    max-width: 1200px;
+    margin: auto;
+    color:var(--cor-terciaria);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.form_contato{
+    width: 780px;
+    height: 700px;
+    border: 1px solid var(--cor-primaria);
+    display: flex;
+    flex-direction:column;
+   
+}
+
+.form_contato h2{
+    color:var(--cor-primaria);
+    text-align: center;
+    margin:50px 0px 0px 0px;
+    font-size: 36px;
+}
+.form_contato form{
+    display: flex;
+    flex-direction:column;
+    margin: 0px auto;
+    color: var(--cor-terciaria);
+    font-size: 24px;
+}
+.form_contato input,
+.form_contato label,
+.form_contato textarea{
+    width:400px;
+}
+.form_contato input{
+    height:42px ;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 4px;
+    
+}
+.form_contato label{
+    margin-top:20px ;
+}
+
+.form_contato textarea{
+    height: 125px;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 4px;
+}
+
+
+.form_contato button{
+    background: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 4px;
+    color: var(--white);
+    width: 128px;
+    height: 42px;
+    font-size: 1.5em;
+    margin-top: 35px;
+
+}
+
+.dados_contato{
+    width: 400px;
+    height: 700px;
+    background-color: var(--cor-primaria);
+    color: var(--white);
+    
+}
+
+.dados_contato p{
+    text-align: center;
+    position: relative;
+    top:50%;
+    font-size: 1.5em;
+}
+

@@ -1,0 +1,24 @@
+@import url(header.css);
+
+@import url(home.css);
+
+@import url(contato.css);
+
+@import url(media.css);
+:root{ 
+    --cor-primaria:#660027;
+    --cor-secundaria:#6c6969;
+    --cor-terciaria:#7D7777;
+    --white:white;
+    --fonte-padrao: 'Roboto', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    font-family: var(--fonte-padrao);
+}
